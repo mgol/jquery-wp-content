@@ -190,6 +190,14 @@ function jq_meta_description() {
 		$sites[ JQUERY_LIVE_SITE ][ 'options' ][ 'description' ];
 }
 
+function jq_jquery_version() {
+	$sites = jquery_sites();
+
+	// jQuery 1.11.3 is a default for compatibility with old sites.
+	return empty( $sites[ JQUERY_LIVE_SITE ][ 'jquery_version' ] ) ? '1.11.3' :
+		$sites[ JQUERY_LIVE_SITE ][ 'jquery_version' ];
+}
+
 /**
  * Fixes paging on a search page when Relevanssi plugin is used
  */

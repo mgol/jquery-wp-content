@@ -10,6 +10,7 @@ function jquery_sites() {
 			'blog_id' => 1,
 			'cookie_domain' => '.jquery.com',
 			'body_class' => 'jquery',
+			'jquery_version' => '3.4.1',
 			'options' => array(
 				'blogname' => 'jQuery',
 				'description' => 'jQuery: The Write Less, Do More, JavaScript Library',
@@ -24,6 +25,7 @@ function jquery_sites() {
 			'blog_id' => 2,
 			'cookie_domain' => '.jquery.com',
 			'body_class' => 'jquery',
+			'jquery_version' => '3.4.1',
 			'options' => array(
 				'blogname' => 'jQuery Blog',
 				'stylesheet' => 'blog-jquery-com',
@@ -33,6 +35,7 @@ function jquery_sites() {
 		'api.jquery.com' => array(
 			'blog_id' => 3,
 			'cookie_domain' => '.jquery.com',
+			'jquery_version' => '3.4.1',
 			'body_class' => 'jquery',
 			'logo_link' => 'https://jquery.com/',
 			'options' => array(
@@ -121,6 +124,7 @@ function jquery_sites() {
 			'blog_id' => 9,
 			'cookie_domain' => '.jquery.org',
 			'body_class' => 'jquery-foundation',
+			'jquery_version' => '3.4.1',
 			'options' => array(
 				'blogname' => 'jQuery Foundation',
 				'stylesheet' => 'jquery.org',

@@ -1,8 +1,5 @@
 <!doctype html>
-<!--[if IE 7 ]>		 <html class="no-js ie ie7 lte7 lte8 lte9"> <?php language_attributes(); ?>> <![endif]-->
-<!--[if IE 8 ]>		 <html class="no-js ie ie8 lte8 lte9"> <?php language_attributes(); ?>> <![endif]-->
-<!--[if IE 9 ]>		 <html class="no-js ie ie9 lte9"> <?php language_attributes(); ?>> <![endif]-->
-<!--[if (gt IE 9)|!(IE)]><!--> <html class="no-js" <?php language_attributes(); ?>> <!--<![endif]-->
+<html class="no-js" <?php language_attributes(); ?>>
 <head data-live-domain="<?php echo JQUERY_LIVE_DOMAIN; ?>">
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -28,7 +25,7 @@
 
 	<script src="<?php echo get_template_directory_uri(); ?>/js/modernizr.custom.2.8.3.min.js"></script>
 
-	<script src="https://code.jquery.com/jquery-1.11.3.js"></script>
+	<script src="https://code.jquery.com/jquery-<?php echo jq_jquery_version(); ?>.min.js"></script>
 
 	<script src="<?php echo get_template_directory_uri(); ?>/js/plugins.js"></script>
 	<script src="<?php echo get_template_directory_uri(); ?>/js/main.js"></script>
